@@ -66,8 +66,3 @@ export function WeatherDisplay ({ city }) {
 
   );
   }
-
-
-
-
-  
