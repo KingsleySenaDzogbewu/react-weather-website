@@ -10,9 +10,6 @@ function App() {
     setCity(cityName); // updates state → triggers WeatherDisplay useEffect
   };
 
-
-
-
   return (
     <div>
       <CityInput onSearch={handleSearch}/>
