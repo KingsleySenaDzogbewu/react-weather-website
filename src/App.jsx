@@ -7,7 +7,7 @@ function App() {
   const [city, setCity]= useState("");
   
   const handleSearch = (cityName) => {
-    setCity(cityName); // updates state → triggers WeatherDisplay useEffect
+    setCity(cityName); 
   };
 
   return (
