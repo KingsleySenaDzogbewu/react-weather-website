@@ -15,7 +15,6 @@ function App() {
       <CityInput onSearch={handleSearch}/>
       <WeatherDisplay city={city}/>
     </div>
-   
   );
 }
 
